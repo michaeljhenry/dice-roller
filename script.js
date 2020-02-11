@@ -16,7 +16,6 @@ $(document).ready(function() {
         addClassFunc(source, add);
         $('.dice').addClass('shake');
         var numArr = getNumbers();
-        console.log(numArr);
         $('#instruct_score').text('Shake shake shake');
         setTimeout(function()
             {        
